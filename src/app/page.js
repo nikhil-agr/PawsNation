@@ -33,7 +33,7 @@ export default function Home() {
               Explore
             </div>
           </button> */}
-          <button class="px-6 py-4 bg-yellow-300 rounded-md top-8 text-[#240A34] relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-yellow-400 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#EABE6C;] hover:[text-shadow:2px_2px_2px_#FFF67E] text-2xl font-Anta">
+          <button className="px-6 py-4 bg-yellow-300 rounded-md top-8 text-[#240A34] relative font-semibold after:-z-20 after:absolute after:h-1 after:w-1 after:bg-yellow-400 after:left-5 overflow-hidden after:bottom-0 after:translate-y-full after:rounded-md after:hover:scale-[300] after:hover:transition-all after:hover:duration-700 after:transition-all after:duration-700 transition-all duration-700 [text-shadow:3px_5px_2px_#EABE6C;] hover:[text-shadow:2px_2px_2px_#FFF67E] text-2xl font-Anta">
             Explore
           </button>
         </Link>

@@ -3,11 +3,11 @@ import './style.module.css'
 
 const Marquee = ({ children }) => {
   return (
-    <div className='overflow-hidden text-[#FFFFDD] border-y-2 space-x-24 border-[#FFF7D4] py-[-180px] whitespace-nowrap w-full'>
-      <div className='inline-block text-[14vw] font-[FoundersGrotesk] leading-tighter tracking-tight uppercase space-x-32 animate-marquee'>
+    <div className='overflow-hidden text-[#FFFFDD] border-y-2 border-[#FFF7D4] py-[-180px] whitespace-nowrap w-full'>
+      <div className='inline-block text-[14vw] font-[FoundersGrotesk] leading-tighter tracking-tight uppercase pr-24 animate-marquee'>
         <span>{children}</span>
       </div>
-      <div className='inline-block text-[14vw] font-[FoundersGrotesk] leading-tighter tracking-tight uppercase space-x-32 animate-marquee'>
+      <div className='inline-block text-[14vw] font-[FoundersGrotesk] leading-tighter tracking-tight uppercase pr-24 animate-marquee'>
         <span>{children}</span>
       </div>
       
