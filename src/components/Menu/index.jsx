@@ -81,7 +81,7 @@ const Menu = () => {
   return (
     <div className="menu-container font-NeueMontreal" ref={container}>
       <div
-        className={`menu-bar fixed top-0 left-0 py-[38.4px] px-[6em] z-[2] ${blurClass} w-full flex items-center justify-between transition-all duration-500 ease-in-out ${
+        className={`menu-bar fixed top-0 left-0 py-[28px] px-[6em] z-[2] ${blurClass} w-full flex items-center justify-between transition-all duration-500 ease-in-out ${
           isMenuVisible
             ? "translate-y-0 opacity-100"
             : "-translate-y-full opacity-0"
@@ -108,13 +108,8 @@ const Menu = () => {
             </p>
           </div>
         </div>
-        <div className="menu-close-icon">
-          <p className="text-black no-underline uppercase text-[14px] font-semibold">
-            &#x2715;
-          </p>
-        </div>
         <div className="menu-copy">
-          <div className="menu-links">
+          <div className="menu-links px-56 py-16">
             {menuLinks.map((link, index) => (
               <div className="menu-link-item uppercase" key={index}>
                 <div className="menu-link-item-holder" onClick={toggleMenu}>
