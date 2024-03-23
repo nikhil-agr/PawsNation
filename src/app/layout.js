@@ -11,6 +11,9 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en" suppressHydrationWarning={true}>
+      <head>
+        <link rel="icon" href="/Images/favicon.ico" sizes="any" />
+      </head>
       <body suppressHydrationWarning={true} className={inter.className}>
         <Menu />
         {children}
