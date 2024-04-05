@@ -1,11 +1,14 @@
 import React from 'react'
+import Form from "@/components/Form"
+import About from "@/components/About"
 
-const page = () => {
+const App = () => {
   return (
-    <div>
-      about
-    </div>
+    <>
+    <About/>
+    <Form/>
+    </>
   )
 }
 
-export default page
+export default App

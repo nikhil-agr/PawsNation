@@ -31,7 +31,8 @@ function Info() {
   return (
     <div
       data-scroll
-      data-scroll-speed="-0.2"
+      data-scroll-section
+      data-scroll-speed={-0.2}
       className="w-full h-[185vh] font-NeueMontreal text-[#252B48]  rounded-t-3xl bg-[#75C2F6]"
     >
       <div className="WHAT w-[80%] leading-[3.4vw] tracking-tight rounded-t-3xl text-[3.5vw] py-32 px-20">
@@ -49,15 +50,12 @@ function Info() {
         <h1 className="text-4xl font-semibold">
           Your Dog Adoption Journey With PawsNation
         </h1>
-        <div className="flex justify-around px-40 py-12 items-center">
-          {/* <div className=""> */}
+        <div className="flex justify-between px-40 py-12 items-center">
           <img
-            src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg"
-            width={400}
+            src="/Images/adopt-me.png"
+            width={500}
             alt=""
           />
-          {/* <Image src="https://dm6g3jbka53hp.cloudfront.net/static-images/adopt-me-pet-02032021.jpg" alt="" width={380} height={20} /> */}
-          {/* </div> */}
           <div className="flex justify-center w-1/2 flex-col gap-6 my-10">
             {images.map((image, i) => (
               <div key={i} className="flex w-[100%] gap-8 items-center">
@@ -74,11 +72,36 @@ function Info() {
       <div className="w-full h-[1px] -mt-16 bg-zinc-200"></div>
       <div className="WHY-NOT w-full px-20 py-16 flex justify-between items-center">
         <h1 className="text-6xl w-1/2">
-          <p className="flex items-center">Adopt...? <span className="text-5xl">🤔</span></p>
-          <p className="flex items-center">Because Why Not? <span className="text-5xl">🤷🏻</span></p>
-          <p className="flex items-center">How Can You Resist These? <span className="text-5xl">🐕</span></p>
+          <p className="flex items-center">
+            Adopt...? <span className="text-5xl">🤔</span>
+          </p>
+          <p className="flex items-center">
+            Because Why Not? <span className="text-5xl">🤷🏻</span>
+          </p>
+          <p className="flex items-center">
+            How Can You Resist These? <span className="text-5xl">🐕</span>
+          </p>
         </h1>
-        <video className="rounded-3xl" src="/Videos/dog.mp4" controls loop muted height={20} width={340}></video>
+        <video
+          className="rounded-3xl"
+          src="/Videos/cutie-1.mp4"
+          // controls
+          loop
+          autoPlay
+          muted
+          height={20}
+          width={280}
+        ></video>
+        <video
+          className="rounded-3xl"
+          src="/Videos/cutie-2.mp4"
+          // controls
+          loop
+          muted
+          autoPlay
+          height={20}
+          width={280}
+        ></video>
       </div>
     </div>
   );

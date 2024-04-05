@@ -13,6 +13,7 @@ module.exports = {
         FoundersGrotesk: ["FoundersGrotesk", "cursive", "serif"],
         NeueMontreal: ["NeueMontreal", "cursive", "serif"],
         Magra: ["Magra", "cursive"],
+        Poppins: ['poppins', 'cursive']
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

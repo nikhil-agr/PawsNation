@@ -1,0 +1,54 @@
+.Container {
+    position: relative;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: 600;
+    color: white;
+    background-color: #FFC94A;
+}
+#f39b6d .main {
+    overflow: hidden;
+}
+
+.top-con {
+    position: absolute;
+    top: 17%;
+}
+
+.top-content {
+    transform: rotateX(0deg);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+/* .container2 {
+    height: 100vh;
+    width: 100%;
+  } */
+
+.btm-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: absolute;
+    bottom: 25%;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+}
+
+.btm-con {
+    width: 50%;
+}
+
+.img {
+    height: 40%;
+    width: 41%;
+    transition: all cubic-bezier(0.19, 1, 0.22, 1);
+}

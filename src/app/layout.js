@@ -1,6 +1,9 @@
 import { Inter } from "next/font/google";
 import "./globals.css";
+import './locomotive-scroll.css'
+
 import Menu from "@/components/Menu";
+import Footer from "@/components/Footer/Footer";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
@@ -17,6 +20,7 @@ export default function RootLayout({ children }) {
       <body suppressHydrationWarning={true} className={inter.className}>
         <Menu />
         {children}
+        <Footer />
       </body>
     </html>
   );

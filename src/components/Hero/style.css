@@ -1,0 +1,72 @@
+
+.hero__header {
+  background-color: #BED7DC;
+}
+
+.vdo {
+  height: 100vh;
+  width: 100vw;
+  overflow: hidden;
+}
+
+.textt {
+  text-align: center;
+  width: 100vw;
+  height: 100vh;
+}
+/* 
+.bar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  background-color: white;
+  width: 20vw;
+}
+
+.bar {
+  margin-left: 40%;
+  margin-top: 2%;
+} */
+
+/* .bar input {
+  border-radius: 15px;
+  padding: 10px;
+  background-color: transparent;
+  color: black;
+}
+
+.bar input:focus {
+  outline: none;
+} */
+
+#search-icons {
+  color: blue;
+}
+
+.scroll-section-outer {
+  overflow: hidden;
+  background-color: #FFC94A;
+}
+
+.scroll-section-inner {
+  height: 100vh;
+  width: 400vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.scroll-section {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.crousel {
+  height: 100vh;
+  width: 100vw;
+  margin-left: 7%;
+}

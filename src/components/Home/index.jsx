@@ -25,7 +25,8 @@ const Index = () => {
   return (
     <div
       data-scroll
-      data-scroll-speed="-0.55"
+      data-scroll-section
+      data-scroll-speed={-0.5}
       lerp="0.1"
       className="bg-[#F1F1F1] relative h-screen w-full text-zinc-800"
       ref={container}

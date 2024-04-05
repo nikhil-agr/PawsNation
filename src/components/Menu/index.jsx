@@ -7,9 +7,9 @@ import gsap from "gsap";
 import { usePathname } from "next/navigation";
 const menuLinks = [
   { path: "/", label: "Home" },
-  { path: "/about", label: "About" },
+  { path: "/breedinfo", label: "Breed Info" },
   { path: "/centres", label: "Adoption Centres" },
-  { path: "/petinfo", label: "Pet Info" },
+  { path: "/about", label: "About" },
   { path: "/help", label: "Help" },
 ];
 
