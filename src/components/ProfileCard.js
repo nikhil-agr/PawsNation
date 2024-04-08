@@ -40,7 +40,7 @@ export const ProfileCard = (props) => {
               id="vetPresent"
               className={`px-4 py-2 rounded-lg bg-green-500 text-center text-white font-bold cursor-pointer`}
             >
-              Vet Available
+              <a href = "https://buy.stripe.com/test_bIY4go8427lC7Xq3cc" className="decoration-none">Book Vet Slot</a>
             </p>
           ) : (
             <p
